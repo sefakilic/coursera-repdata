@@ -45,7 +45,7 @@ ggplot(data = averages, aes(x = interval, y = steps)) + geom_line() + xlab("5-mi
     ylab("average number of steps taken")
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk Rplot2](https://github.com/janusng2000/RepData_PeerAssessment1/blob/master/png/Rplot2.png) 
 
 
 On average across all the days in the dataset, the 5-minute interval contains
@@ -155,5 +155,5 @@ ggplot(averages, aes(interval, steps)) + geom_line() + facet_grid(day ~ .) +
     xlab("5-minute interval") + ylab("Number of steps")
 ```
 
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7.png) 
+![plot of chunk Rplot4](https://github.com/janusng2000/RepData_PeerAssessment1/blob/master/png/Rplot4.png) 
 
